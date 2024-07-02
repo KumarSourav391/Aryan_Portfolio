@@ -91,7 +91,7 @@ const experiences = [
 	{
 		title: "Software Engineer",
 		company_name: "Cloud1 Software India Pvt Ltd",
-		icon: "/company/avm.webp",
+		icon: "/company/cloud1.webp",
 		iconBg: "#383E56",
 		date: "2024 -  2024",
 		points: [
@@ -101,7 +101,7 @@ const experiences = [
 	{
 		title: "Software Engineer",
 		company_name: "Delixus Software India Pvt Ltd",
-		icon: "/company/avm.webp",
+		icon: "/company/delixus.webp",
 		iconBg: "#E6DEDD",
 		date: "2021 - 2023",
 		points: [
