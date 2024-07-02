@@ -95,7 +95,7 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "2024 -  2024",
 		points: [
-			"Analyzing the needs of customer in a website.",
+			"Analyzing the needs of customer in a website. I implemented restful api to detect vulnerability in smart contract using technology Python, Flask, Smart contract",
 		],
 	},
 	{
@@ -105,8 +105,8 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "2021 - 2023",
 		points: [
-			"Led the development of Ethereum based Vulnerability",
-			"Management System to identify and remediate vulnerabilities in smart contract.",
+			"Led the development of Ethereum based Vulnerability Management System to identify and remediate vulnerabilities in smart contract.",
+			"Leading and implemantation of Restful APIs and there seamless integration with PostgreSQL Database to ensure optimal system performance and data management.",
 		],
 	},
 ];
@@ -126,7 +126,7 @@ const testimonials = [
 			"Also do check out my UI/UX Portfolio where I have shared by design studies.",
 		name: "Sourav Kumar",
 		image: "/socialmedia/portfolio.svg",
-		link: "https://omthecreator.netlify.app/",
+		link: "https://sourav-portfolio-3d.vercel.app/",
 	},
 	{
 		id: 3,
