@@ -12,6 +12,7 @@ const Contact = () => {
 	const [form, setForm] = useState({
 		name: "",
 		email: "",
+		subject: "",
 		message: "",
 	});
 
@@ -33,9 +34,10 @@ const Contact = () => {
 				"template_jjegxdr",
 				{
 					from_name: form.name,
-					to_name: "Sourav Kumar",
+					to_name: "Aryan",
 					from_email: form.email,
 					to_email: "souravkumar391@gmail.com",
+					subject: form.subject,
 					message: form.message,
 				},
 				"VeFeVdEHL9F9_i6xp",
@@ -48,6 +50,7 @@ const Contact = () => {
 				setForm({
 					name: "",
 					email: "",
+					subject: "",
 					message: "",
 				});
 			})
@@ -89,6 +92,17 @@ const Contact = () => {
 							value={form.email}
 							onChange={handleChange}
 							placeholder="Whats's your email?"
+							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+						/>
+					</label>
+					<label className="flex flex-col">
+						<span className="text-white font-medium mb-4">Subject</span>
+						<textarea
+							rows={2}
+							name="subject"
+							value={form.subject}
+							onChange={handleChange}
+							placeholder="Subject"
 							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
 						/>
 					</label>

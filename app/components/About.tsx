@@ -4,7 +4,6 @@ import { SectionWrapper } from "./HigherOrderComponents";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Tilt } from "react-tilt";
-import { services } from "../constants";
 import { fadeIn, textVariant } from "@/app/utils/motion";
 
 type ServiceCardProps = {
@@ -54,15 +53,12 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
 			>
-				I am Dedicated and seasoned professional specializing in Backend Developer, Data Science, and
-				Machine Learning boasting 2 years of hands-on expertise. Actively seeking new opportunities to
-				apply my skills and contribute to pioneering projects.
+				Key skills (programming, UI/UX design, business acumen).
+				Hobbies and interests When I’m not working on projects or academics,
+				I enjoy immersing myself in music, exploring theatre, and engaging in creative storytelling. 
+				These hobbies allow me to express myself, recharge, and connect with others on a deeper level. 
+				I also have a keen interest in discovering new perspectives through literature and meaningful conversations.
 			</motion.p>
-			<div className="mt-20 flex flex-wrap gap-10">
-				{services.map((service, index) => (
-					<ServiceCard key={service.title} index={index} {...service} />
-				))}
-			</div>
 		</>
 	);
 };

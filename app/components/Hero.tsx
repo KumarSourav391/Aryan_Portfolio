@@ -13,15 +13,17 @@ const Hero = () => {
 				</div>
 				<div>
 					<h1 className="heroHeadText text-white">
-						Hi, I&apos;m <span className="text-[#915EFF] ">Sourav Kumar</span>
+						Hi, I&apos;m <span className="text-[#915EFF] ">Aryan</span>
 					</h1>
 					<p className="heroSubText">
-						A Experienced Backend Web Developer&nbsp;
-						<br className="sm:block hidden" />& Data Scientist
+						I’m a second-year Engineering student at NUS&nbsp;
+						<br className="sm:block hidden" />My portfolio showcases my academic journey, personal projects, and experiences that reflect my commitment to continuous learning and innovation
 					</p>
 				</div>
 			</div>
-			<ComputersCanvas />
+
+			
+			{/* <ComputersCanvas />
 			<div className="absolute xs:bottom-2 bottom-32 w-full flex justify-center items-center">
 				<a href="#about">
 					<div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
@@ -35,8 +37,8 @@ const Hero = () => {
 							className="w-3 h-3 rounded-full bg-secondary mb-1"
 						/>
 					</div>
-				</a>
-			</div>
+				</a> 
+			</div> */}
 		</section>
 	);
 };

@@ -1,34 +1,23 @@
 export const navLinks = [
 	{
+		id: "home",
+		title: "Home",
+	},
+	{
 		id: "about",
 		title: "About",
 	},
 	{
-		id: "work",
-		title: "Work",
+		id: "projects",
+		title: "Projects",
+	},
+	{
+		id: "blog",
+		title: "Blog",
 	},
 	{
 		id: "contact",
 		title: "Contact",
-	},
-];
-
-const services = [
-	{
-		title: "Backend Developer",
-		icon: "/web.webp",
-	},
-	{
-		title: "Data Science",
-		icon: "/mobile.webp",
-	},
-	{
-		title: "Data Analytics",
-		icon: "/backend.webp",
-	},
-	{
-		title: "Machine Learning",
-		icon: "/creator.webp",
 	},
 ];
 
@@ -115,8 +104,8 @@ const testimonials = [
 	{
 		id: 1,
 		testimonial:
-			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-		name: "Sourav Kumar",
+			"LinkedIn is a business and employment-focused social media platform that Projects through websites and mobile apps.",
+		name: "Aryan",
 		image: "/socialmedia/linkedin.svg",
 		link: "https://www.linkedin.com/in/sourav-kumar-108",
 	},
@@ -124,17 +113,17 @@ const testimonials = [
 		id: 2,
 		testimonial:
 			"Also do check out my UI/UX Portfolio where I have shared by design studies.",
-		name: "Sourav Kumar",
+		name: "Aryan",
 		image: "/socialmedia/portfolio.svg",
-		link: "https://sourav-portfolio-3d.vercel.app/",
+		link: "https://aryan-portfolio-3d.vercel.app/",
 	},
 	{
 		id: 3,
 		testimonial:
 			"Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-		name: "Sourav Kumar",
+		name: "Aryan",
 		image: "/tech/github.webp",
-		link: "https://github.com/KumarSourav391",
+		link: "https://github.com/",
 	},
 ];
 
@@ -209,4 +198,4 @@ const projects = [
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {technologies, experiences, testimonials, projects};

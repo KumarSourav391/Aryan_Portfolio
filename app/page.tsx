@@ -1,12 +1,12 @@
 import {
 	About,
 	Contact,
-	Experience,
 	Feedbacks,
 	Hero,
 	Navbar,
 	Tech,
-	Works,
+	Projects,
+	Blog,
 	StarsCanvas,
 } from "./components";
 
@@ -18,9 +18,9 @@ export default function Home() {
 				<Hero />
 			</div>
 			<About />
-			<Experience />
 			<Tech />
-			<Works />
+			<Projects />
+			<Blog />
 			<Feedbacks />
 			<div className="relative z-0">
 				<Contact />
